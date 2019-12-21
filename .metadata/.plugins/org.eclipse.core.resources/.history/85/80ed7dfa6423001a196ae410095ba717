@@ -1,6 +1,5 @@
 package entities;
 
-
 public abstract class TaxPayer {
 	private String name;
 	private Double anualIncome;
@@ -29,5 +28,6 @@ public abstract class TaxPayer {
 		this.anualIncome = anualIncome;
 	}
 	
-	public abstract double tax();
+	public abstract double tax();	
+
 }
